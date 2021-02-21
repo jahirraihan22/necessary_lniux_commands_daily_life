@@ -1,0 +1,23 @@
+1 . how to install deb package
+
+	sudo dpkg -i package.deb
+	
+2. run openGL
+
+	g++ main.cpp -o firstOpenGlApp -lglut -lGLU -lGL 
+	
+	./firstOpenGlApp
+	
+3. Install composer
+	curl -sS https://getcomposer.org/installer | sudo php
+	sudo mv composer.phar /usr/local/bin/composer
+	export PATH="$HOME/.composer/vendor/bin:$PATH"
+	
+4. Laravel permission
+	sudo chmod -R 777 storage/
+
+5. to install jessenger to set up mongo in laravel
+	composer require jenssegers/mongodb dev-develop
+
+
+
